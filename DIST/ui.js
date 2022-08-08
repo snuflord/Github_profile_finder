@@ -19,10 +19,12 @@ class UI {
             <span class="badge badge-info">Following: ${user.following}</span>
             <br><br>
             <ul class="list-group">
+              <li class="list-group-item">Name: ${user.name}</li>
               <li class="list-group-item">Company: ${user.company}</li>
               <li class="list-group-item">Website/Blog: ${user.blog}</li>
               <li class="list-group-item">Location: ${user.location}</li>
               <li class="list-group-item">Member Since: ${user.created_at}</li>
+              <li class="list-group-item">Bio: ${user.bio}</li>
             </ul>
           </div>
         </div>
